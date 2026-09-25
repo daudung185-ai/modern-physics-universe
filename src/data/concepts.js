@@ -1,0 +1,88 @@
+const relativityDisclaimer = 'Mô phỏng này là một minh họa giáo dục đã được đơn giản hóa, không phải phép giải số các phương trình trường Einstein.'
+const blackHoleDisclaimer = 'Hình ảnh hố đen trong dự án đã được đơn giản hóa cho mục đích giáo dục, không phải mô phỏng tương đối rộng đầy đủ.'
+
+export const relativityConcepts = [
+  {
+    id: 'mass',
+    name: 'Khối lượng',
+    category: 'relativity',
+    type: 'Khái niệm tương đối',
+    topic: 'Thuyết tương đối rộng',
+    description: 'Khối lượng và năng lượng ảnh hưởng đến hình học của không-thời gian.',
+    notableFeatures: 'Trong cảnh này, tăng khối lượng làm trường không-thời gian biến dạng mạnh hơn quanh vật thể trung tâm.',
+    disclaimer: relativityDisclaimer,
+  },
+  {
+    id: 'spacetime',
+    name: 'Không-thời gian',
+    category: 'relativity',
+    type: 'Khái niệm tương đối',
+    topic: 'Thuyết tương đối rộng',
+    description: 'Không gian và thời gian hợp thành một khuôn khổ bốn chiều dùng để mô tả hấp dẫn trong thuyết tương đối rộng.',
+    notableFeatures: 'Mạng lưới 3D là phép ẩn dụ trực quan cho hình học; không-thời gian thực sự có bốn chiều.',
+    disclaimer: relativityDisclaimer,
+  },
+  {
+    id: 'gravity',
+    name: 'Hấp dẫn',
+    category: 'relativity',
+    type: 'Khái niệm tương đối',
+    topic: 'Thuyết tương đối rộng',
+    description: 'Trong thuyết tương đối rộng, hấp dẫn được mô tả như hệ quả của không-thời gian cong đối với các vật thể chuyển động.',
+    notableFeatures: 'Các vật thể chuyển động tự do đi theo những đường trắc địa trong hình học không-thời gian cong.',
+    disclaimer: relativityDisclaimer,
+  },
+]
+
+export const blackHoleConcepts = [
+  {
+    id: 'event-horizon',
+    name: 'Chân trời sự kiện',
+    category: 'blackHole',
+    type: 'Khái niệm hố đen',
+    topic: 'Hố đen',
+    description: 'Ranh giới mà sau khi vượt qua, các sự kiện không thể tác động đến một người quan sát bên ngoài.',
+    notableFeatures: 'Đây là một ranh giới nhân quả, không phải một bề mặt vật chất.',
+    disclaimer: blackHoleDisclaimer,
+  },
+  {
+    id: 'accretion-disk',
+    name: 'Đĩa bồi tụ',
+    category: 'blackHole',
+    type: 'Khái niệm hố đen',
+    topic: 'Hố đen',
+    description: 'Khí nóng và vật chất quay quanh rồi rơi dần về phía hố đen.',
+    notableFeatures: 'Ma sát và sự nén làm vùng trong của đĩa nóng lên, khiến nó phát xạ mạnh.',
+    disclaimer: blackHoleDisclaimer,
+  },
+  {
+    id: 'photon-ring',
+    name: 'Vòng photon',
+    category: 'blackHole',
+    type: 'Khái niệm hố đen',
+    topic: 'Hố đen',
+    description: 'Ánh sáng có thể bị bẻ cong rất mạnh gần hố đen, tạo nên một vùng sáng mảnh quanh bóng tối biểu kiến.',
+    notableFeatures: 'Vòng sáng trong scene là minh họa điện ảnh cho ánh sáng bị hội tụ và không đại diện chính xác cho một quỹ đạo photon duy nhất.',
+    disclaimer: blackHoleDisclaimer,
+  },
+  {
+    id: 'singularity',
+    name: 'Điểm kỳ dị',
+    category: 'blackHole',
+    type: 'Khái niệm hố đen',
+    topic: 'Hố đen',
+    description: 'Một vùng được thuyết tương đối rộng cổ điển dự đoán có mật độ và độ cong không-thời gian trở nên cực hạn.',
+    notableFeatures: 'Mô tả này cho thấy giới hạn của thuyết tương đối rộng cổ điển, không phải một bề mặt có thể quan sát trực tiếp.',
+    disclaimer: blackHoleDisclaimer,
+  },
+  {
+    id: 'time-dilation',
+    name: 'Giãn thời gian',
+    category: 'blackHole',
+    type: 'Khái niệm hố đen',
+    topic: 'Hố đen',
+    description: 'Trường hấp dẫn mạnh khiến các đồng hồ chạy khác nhau khi so với người quan sát ở xa.',
+    notableFeatures: 'Độ chênh lệch tăng lên khi đồng hồ tiến gần một trường hấp dẫn mạnh hơn.',
+    disclaimer: blackHoleDisclaimer,
+  },
+]
