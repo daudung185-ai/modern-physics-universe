@@ -2,6 +2,8 @@
 
 **An interactive 3D journey from our home planet to the large-scale structure of the Universe.**
 
+![Modern Physics Universe interactive 3D experience](docs/preview.png)
+
 [Live Demo](https://modern-physics-universe.vercel.app) · [GitHub Repository](https://github.com/daudung185-ai/modern-physics-universe)
 
 ## Overview
@@ -9,10 +11,6 @@
 Modern Physics Universe is a cinematic educational website that presents modern physics and astronomy through interactive WebGL scenes. The experience connects a close-up view of Earth with increasingly larger and more abstract scales: the Solar System, curved spacetime, a black hole, the Milky Way, and the cosmic web.
 
 The interface and educational content are currently written in Vietnamese. Visual scale, color, motion, and time are intentionally stylized for clarity; the project is an educational visualization, not a precision scientific simulator.
-
-## Preview
-
-<!-- Add a real project screenshot here when one is available. -->
 
 ## Features
 
